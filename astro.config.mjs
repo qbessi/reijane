@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://reijane.github.io'
+  site: 'https://reijane.github.io',
   base: '/',
   integrations: [tailwind(), sitemap()],
   output: 'static'
